@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EG Chat</string>
+    <string name="message">Message</string>
+    <string name="password_group">Password Group</string>
+    <string name="name_group">Name Group</string>
+    <string name="type_a_message">Type a Message</string>
+    <string name="todo">TODO</string>
+</resources>

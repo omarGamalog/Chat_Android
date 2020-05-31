@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_app_chat"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="211dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="304dp"
+        android:layout_marginLeft="304dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/condiment"
+        android:gravity="center"
+        android:text="EG Chat"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/view5"
+        app:layout_constraintEnd_toStartOf="@+id/view5"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="278dp"
+        android:layout_height="52dp"
+
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:autofillHints=""
+        android:background="@drawable/round"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <EditText
+        android:id="@+id/EName"
+        android:layout_width="263dp"
+        android:layout_height="49dp"
+
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/round"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="name"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/email"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/stetusef"
+        android:layout_width="260dp"
+        android:layout_height="47dp"
+
+
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="@drawable/round"
+        android:drawableStart="@drawable/ic_phone_android_black_24dp"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Number"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/EName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/EName"
+        app:layout_constraintTop_toBottomOf="@+id/EName" />
+
+    <EditText
+        android:id="@+id/Passwordbtn"
+        android:layout_width="278dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="@drawable/round"
+        android:drawableStart="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/email"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="216dp"
+        android:layout_height="53dp"
+
+        android:background="@drawable/round2"
+        android:text="new_account"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/email"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="@+id/EName"
+        app:layout_constraintTop_toBottomOf="@+id/stetusef"
+        app:layout_constraintVertical_bias="0.174" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
